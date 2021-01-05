@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.9723502304147466" branch-rate="0.84375" lines-covered="211" lines-valid="217" branches-covered="27" branches-valid="32" complexity="66" version="0" timestamp="1609855164">
+  <sources>
+    <source>G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\</source>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="ConstructionLine.CodingChallenge" line-rate="1" branch-rate="1" complexity="36">
+      <classes>
+        <class name="ConstructionLine.CodingChallenge.Builder.ColorCountBuilder" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge\Builder\ColorCountBuilder.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Build" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="9" hits="2" branch="false" />
+                <line number="10" hits="2" branch="false" />
+                <line number="12" hits="26" branch="true" condition-coverage="100% (2/2)" />
+                <line number="13" hits="10" branch="false" />
+                <line number="14" hits="15" branch="false" />
+                <line number="15" hits="10" branch="false" />
+                <line number="17" hits="2" branch="false" />
+                <line number="18" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="2" branch="false" />
+            <line number="10" hits="2" branch="false" />
+            <line number="12" hits="26" branch="true" condition-coverage="100% (2/2)" />
+            <line number="13" hits="10" branch="false" />
+            <line number="14" hits="15" branch="false" />
+            <line number="15" hits="10" branch="false" />
+            <line number="17" hits="2" branch="false" />
+            <line number="18" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.Builder.ShirtBuilder" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge\Builder\ShirtBuilder.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="Build" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="8" hits="2" branch="false" />
+                <line number="9" hits="2" branch="false" />
+                <line number="11" hits="100012" branch="true" condition-coverage="100% (2/2)" />
+                <line number="12" hits="50003" branch="false" />
+                <line number="13" hits="50003" branch="true" condition-coverage="100% (4/4)" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="50003" branch="false" />
+                <line number="19" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="2" branch="false" />
+            <line number="9" hits="2" branch="false" />
+            <line number="11" hits="100012" branch="true" condition-coverage="100% (2/2)" />
+            <line number="12" hits="50003" branch="false" />
+            <line number="13" hits="50003" branch="true" condition-coverage="100% (4/4)" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="50003" branch="false" />
+            <line number="19" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.Builder.SizeCountBuilder" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge\Builder\SizeCountBuilder.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Build" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="9" hits="2" branch="false" />
+                <line number="10" hits="2" branch="false" />
+                <line number="12" hits="18" branch="true" condition-coverage="100% (2/2)" />
+                <line number="13" hits="6" branch="false" />
+                <line number="14" hits="9" branch="false" />
+                <line number="15" hits="6" branch="false" />
+                <line number="17" hits="2" branch="false" />
+                <line number="18" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="2" branch="false" />
+            <line number="10" hits="2" branch="false" />
+            <line number="12" hits="18" branch="true" condition-coverage="100% (2/2)" />
+            <line number="13" hits="6" branch="false" />
+            <line number="14" hits="9" branch="false" />
+            <line number="15" hits="6" branch="false" />
+            <line number="17" hits="2" branch="false" />
+            <line number="18" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.Color" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge\Entities\Color.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="139" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="20" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="5" branch="false" />
+                <line number="13" hits="5" branch="false" />
+                <line number="14" hits="5" branch="false" />
+                <line number="15" hits="5" branch="false" />
+                <line number="16" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="139" branch="false" />
+            <line number="10" hits="20" branch="false" />
+            <line number="12" hits="5" branch="false" />
+            <line number="13" hits="5" branch="false" />
+            <line number="14" hits="5" branch="false" />
+            <line number="15" hits="5" branch="false" />
+            <line number="16" hits="5" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.ColorCount" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge\Entities\SearchResults.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Color" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="70" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Count" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="30" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="70" branch="false" />
+            <line number="29" hits="30" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.SearchEngine" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge\SearchEngine.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Search" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="3" branch="false" />
+                <line number="21" hits="3" branch="false" />
+                <line number="23" hits="2" branch="false" />
+                <line number="25" hits="2" branch="false" />
+                <line number="26" hits="2" branch="false" />
+                <line number="27" hits="2" branch="false" />
+                <line number="28" hits="2" branch="false" />
+                <line number="29" hits="2" branch="false" />
+                <line number="30" hits="2" branch="false" />
+                <line number="31" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="4" branch="false" />
+                <line number="13" hits="4" branch="false" />
+                <line number="14" hits="4" branch="false" />
+                <line number="16" hits="3" branch="false" />
+                <line number="17" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="4" branch="false" />
+            <line number="13" hits="4" branch="false" />
+            <line number="14" hits="4" branch="false" />
+            <line number="16" hits="3" branch="false" />
+            <line number="17" hits="3" branch="false" />
+            <line number="20" hits="3" branch="false" />
+            <line number="21" hits="3" branch="false" />
+            <line number="23" hits="2" branch="false" />
+            <line number="25" hits="2" branch="false" />
+            <line number="26" hits="2" branch="false" />
+            <line number="27" hits="2" branch="false" />
+            <line number="28" hits="2" branch="false" />
+            <line number="29" hits="2" branch="false" />
+            <line number="30" hits="2" branch="false" />
+            <line number="31" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.SearchOptions" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge\Entities\SearchOptions.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Sizes" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="50014" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Colors" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="13" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="50014" branch="false" />
+            <line number="9" hits="13" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.SearchResults" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge\Entities\SearchResults.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Shirts" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name="get_SizeCounts" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ColorCounts" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="4" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="7" branch="false" />
+            <line number="10" hits="4" branch="false" />
+            <line number="13" hits="4" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.Shirt" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge\Entities\Shirt.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Size" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="100022" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Color" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="50028" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="50003" branch="false" />
+                <line number="16" hits="50003" branch="false" />
+                <line number="17" hits="50003" branch="false" />
+                <line number="18" hits="50003" branch="false" />
+                <line number="19" hits="50003" branch="false" />
+                <line number="20" hits="50003" branch="false" />
+                <line number="21" hits="50003" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="2" branch="false" />
+            <line number="9" hits="1" branch="false" />
+            <line number="11" hits="100022" branch="false" />
+            <line number="13" hits="50028" branch="false" />
+            <line number="15" hits="50003" branch="false" />
+            <line number="16" hits="50003" branch="false" />
+            <line number="17" hits="50003" branch="false" />
+            <line number="18" hits="50003" branch="false" />
+            <line number="19" hits="50003" branch="false" />
+            <line number="20" hits="50003" branch="false" />
+            <line number="21" hits="50003" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.Size" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge\Entities\Size.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="62" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="3" branch="false" />
+                <line number="13" hits="3" branch="false" />
+                <line number="14" hits="3" branch="false" />
+                <line number="15" hits="3" branch="false" />
+                <line number="16" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="62" branch="false" />
+            <line number="10" hits="12" branch="false" />
+            <line number="12" hits="3" branch="false" />
+            <line number="13" hits="3" branch="false" />
+            <line number="14" hits="3" branch="false" />
+            <line number="15" hits="3" branch="false" />
+            <line number="16" hits="3" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.SizeCount" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge\Entities\SearchResults.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Size" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="30" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Count" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="18" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="30" branch="false" />
+            <line number="21" hits="18" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.Validation.Ensure" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge\Validation\Ensure.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="IsNotNull" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="8" hits="7" branch="false" />
+                <line number="9" hits="7" branch="true" condition-coverage="100% (2/2)" />
+                <line number="10" hits="2" branch="false" />
+                <line number="11" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="7" branch="false" />
+            <line number="9" hits="7" branch="true" condition-coverage="100% (2/2)" />
+            <line number="10" hits="2" branch="false" />
+            <line number="11" hits="5" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="ConstructionLine.CodingChallenge.Tests" line-rate="0.9469026548672567" branch-rate="0.75" complexity="30">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\velan\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.Tests.SampleData.SampleDataBuilder" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge.Tests\SampleData\SampleDataBuilder.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="CreateShirts" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="50001" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetRandomSize" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="50000" branch="false" />
+                <line number="32" hits="50000" branch="false" />
+                <line number="33" hits="50000" branch="false" />
+                <line number="34" hits="50000" branch="false" />
+                <line number="35" hits="50000" branch="false" />
+              </lines>
+            </method>
+            <method name="GetRandomColor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="50000" branch="false" />
+                <line number="40" hits="50000" branch="false" />
+                <line number="41" hits="50000" branch="false" />
+                <line number="42" hits="50000" branch="false" />
+                <line number="43" hits="50000" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="50001" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="30" hits="50000" branch="false" />
+            <line number="32" hits="50000" branch="false" />
+            <line number="33" hits="50000" branch="false" />
+            <line number="34" hits="50000" branch="false" />
+            <line number="35" hits="50000" branch="false" />
+            <line number="39" hits="50000" branch="false" />
+            <line number="40" hits="50000" branch="false" />
+            <line number="41" hits="50000" branch="false" />
+            <line number="42" hits="50000" branch="false" />
+            <line number="43" hits="50000" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.Tests.SearchEnginePerformanceTests" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge.Tests\SearchEnginePerformanceTests.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="PerformanceTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.Tests.SearchEngineTests" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge.Tests\SearchEngineTests.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Test" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Ensure_SearchEngineContructor_Returns_ArgumentNullException_When_InputIsNull" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="2" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Ensure_SearchMethod_Returns_ArgumentNullException_When_InputIsNull" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="2" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="2" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="2" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ConstructionLine.CodingChallenge.Tests.SearchEngineTestsBase" filename="G:\DotNet\Test\Saas\codingchallenge-master\ConstructionLine.CodingChallenge\ConstructionLine.CodingChallenge.Tests\SearchEngineTestsBase.cs" line-rate="0.8837209302325582" branch-rate="0.75" complexity="20">
+          <methods>
+            <method name="AssertResults" signature="(...)" line-rate="0.7058823529411765" branch-rate="0.625" complexity="8">
+              <lines>
+                <line number="10" hits="2" branch="false" />
+                <line number="11" hits="2" branch="false" />
+                <line number="13" hits="3" branch="false" />
+                <line number="14" hits="3" branch="false" />
+                <line number="15" hits="4" branch="false" />
+                <line number="17" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="true" condition-coverage="50% (3/6)" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="AssertSizeCounts" signature="(...)" line-rate="1" branch-rate="0.8333333333333334" complexity="6">
+              <lines>
+                <line number="33" hits="2" branch="false" />
+                <line number="34" hits="2" branch="false" />
+                <line number="36" hits="18" branch="true" condition-coverage="100% (2/2)" />
+                <line number="37" hits="6" branch="false" />
+                <line number="38" hits="24" branch="false" />
+                <line number="39" hits="6" branch="false" />
+                <line number="41" hits="6" branch="false" />
+                <line number="42" hits="15" branch="true" condition-coverage="75% (3/4)" />
+                <line number="43" hits="18" branch="false" />
+                <line number="45" hits="6" branch="false" />
+                <line number="46" hits="6" branch="false" />
+                <line number="47" hits="6" branch="false" />
+                <line number="48" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="AssertColorCounts" signature="(...)" line-rate="1" branch-rate="0.8333333333333334" complexity="6">
+              <lines>
+                <line number="52" hits="2" branch="false" />
+                <line number="53" hits="2" branch="false" />
+                <line number="55" hits="26" branch="true" condition-coverage="100% (2/2)" />
+                <line number="56" hits="10" branch="false" />
+                <line number="57" hits="60" branch="false" />
+                <line number="58" hits="10" branch="false" />
+                <line number="60" hits="10" branch="false" />
+                <line number="61" hits="25" branch="true" condition-coverage="75% (3/4)" />
+                <line number="62" hits="28" branch="false" />
+                <line number="64" hits="10" branch="false" />
+                <line number="65" hits="10" branch="false" />
+                <line number="66" hits="10" branch="false" />
+                <line number="67" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="2" branch="false" />
+            <line number="11" hits="2" branch="false" />
+            <line number="13" hits="3" branch="false" />
+            <line number="14" hits="3" branch="false" />
+            <line number="15" hits="4" branch="false" />
+            <line number="17" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="true" condition-coverage="50% (3/6)" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="2" branch="false" />
+            <line number="33" hits="2" branch="false" />
+            <line number="34" hits="2" branch="false" />
+            <line number="36" hits="18" branch="true" condition-coverage="100% (2/2)" />
+            <line number="37" hits="6" branch="false" />
+            <line number="38" hits="24" branch="false" />
+            <line number="39" hits="6" branch="false" />
+            <line number="41" hits="6" branch="false" />
+            <line number="42" hits="15" branch="true" condition-coverage="75% (3/4)" />
+            <line number="43" hits="18" branch="false" />
+            <line number="45" hits="6" branch="false" />
+            <line number="46" hits="6" branch="false" />
+            <line number="47" hits="6" branch="false" />
+            <line number="48" hits="2" branch="false" />
+            <line number="52" hits="2" branch="false" />
+            <line number="53" hits="2" branch="false" />
+            <line number="55" hits="26" branch="true" condition-coverage="100% (2/2)" />
+            <line number="56" hits="10" branch="false" />
+            <line number="57" hits="60" branch="false" />
+            <line number="58" hits="10" branch="false" />
+            <line number="60" hits="10" branch="false" />
+            <line number="61" hits="25" branch="true" condition-coverage="75% (3/4)" />
+            <line number="62" hits="28" branch="false" />
+            <line number="64" hits="10" branch="false" />
+            <line number="65" hits="10" branch="false" />
+            <line number="66" hits="10" branch="false" />
+            <line number="67" hits="2" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
